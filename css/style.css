@@ -1,0 +1,322 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    padding: 27px 0px;
+}
+.menu__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu__block-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    flex-wrap: wrap;
+}
+.menu__block-col-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.logo__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    background: url(../logo.svg);
+    width: 30px;
+    height: 30px;
+    margin-right: 13px;
+}
+.logo__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+}
+.burger {
+    align-items: center;
+    cursor: pointer;
+}
+.burger__item {
+    background: url(../img/icon/burger.svg);
+    width: 38px;
+    height: 23px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.burger__title {
+    color: #219653;
+    font-family: 'Prompt', sans-serif;
+}
+.href__phone {
+    color: #219653;
+    font-family: 'Prompt', sans-serif;
+}
+.telephone__block {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.phone-icon {
+    background: url(../img/icon/phone.svg);
+    width: 17px;
+    height: 18px;
+    margin-right: 10px;
+}
+.header__phone {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*header*/
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 20px;
+    font-size: 34px;
+    color: #333333;
+    border-left: 6px solid #219653;
+    margin-bottom: 45px;
+}
+.subtitle {
+    font-size: 20px;
+    color: #333333;
+    line-height: 172%;
+    font-family: 'Prompt', sans-serif;
+}
+.about-company {
+    padding-top: 28px;
+    padding-bottom: 50px;
+}
+/*about company*/
+
+.clients {
+    padding-bottom: 139px;
+}
+.clients__company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo__company {
+    margin-bottom: 27px;
+    align-items: center;
+}
+.company__name {
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+}
+.logo__company-1 {
+    background: url(../img/company/lukoil.png);
+    width: 199px;
+    height: 56px;
+}
+.logo__company-2 {
+    background: url(../img/company/maxy.png);
+    width: 120px;
+    height: 75px;
+    margin-top: -15px;
+}
+.logo__company-3 {
+    background: url(../img/company/kmk.png);
+    width: 168px;
+    height: 61px;
+}
+.logo__company-4 {
+    background: url(../img/company/kirov.png);
+    width: 124px;
+    height: 79px;
+}
+.logo__company-5 {
+    background: url(../img/company/rainboy.png);
+    width: 104px;
+    height: 74px;
+}
+/*clients*/
+
+.values {
+    background: #21965308;
+    padding: 100px 0px;
+}
+.values__subtitle__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.values__subtitle {
+    width: 540px;
+    font-size: 18px;
+}
+.values__img {
+    background: url(../img/man/man.png);
+    width: 512px;
+    height: 302px;
+}
+/*values*/
+
+.confidence {
+    padding-top: 118px;
+    padding-bottom: 118px;
+}
+.confidence__list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item {
+    flex-wrap: wrap;
+}
+.item__subtitle {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 171px;
+    color: #333333;
+}
+.item-img {
+    margin-bottom: 21px;
+}
+.confidence__subtitle {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    width: 624px;
+    margin: auto;
+    margin-top: 36px;
+    font-size: 18px;
+    color: #333333;
+}
+.item__subtitle {
+   
+    line-height: 30px;
+}
+.item-img-1{
+    background: url(../img/number/01.png);
+    width: 159px;
+    height: 85px;
+}
+.item-img-2{
+    background: url(../img/number/02.png);
+    width: 161px;
+    height: 85px;
+}
+.item-img-3{
+    background: url(../img/number/03.png);
+    width: 150px;
+    height: 85px;
+}
+.item-img-4{
+    background: url(../img/number/04.png);
+    width: 164px;
+    height: 85px;
+}
+.item-img-5{
+    background: url(../img/number/05.png);
+    width: 166px;
+    height: 85px;
+}
+/*confidence*/
+
+.work {
+    padding-bottom: 70px;
+}
+.work__href__block {
+    text-align: center;
+}
+.work__href-main {
+    text-align: center;
+    margin-top: 43px;
+}
+.work__href {
+    color: #000000;
+    font-family: 'Prompt', sans-serif;
+}
+.work__img {
+    width: 288px;
+    height: 216px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.work__img-1 {
+    background: url(../img/work/one.png);
+}
+.work__img-2 {
+    background: url(../img/work/two.png);
+}
+.work__img-3 {
+    background: url(../img/work/three.png);
+}
+.work__img-4 {
+    background: url(../img/work/four.png);
+}
+/*work*/
+
+.footer {
+    padding-top: 50px;
+    background: #26292B;
+    color: #ffffff;
+}
+.footer__menu-one {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    width: 1054px;
+}
+.footer__menu__title {
+    font-family: 'Prompt', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+.col__href {
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.footer__menu-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    border-top: 1px solid #373737;
+}
+.copyright {
+    font-family: 'Prompt', sans-serif;
+}
+.footer__phone {
+    font-family: 'Oswald', sans-serif;
+    line-height: 30px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer__logo__title {
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/*footer*/
